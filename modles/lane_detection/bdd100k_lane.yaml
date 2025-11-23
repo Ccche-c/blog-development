@@ -1,0 +1,19 @@
+# BDD100K 车道线检测数据集配置
+path: E:/bdd100k/bdd100k/data  # 数据集根目录
+train: bdd100k_images/bdd100k/images/100k/train  # 训练图片路径
+val: bdd100k_images/bdd100k/images/100k/val      # 验证图片路径
+
+# 类别数量
+nc: 6  # 车道线类别数量
+
+# 类别名称
+names:
+  0: lane/road curb
+  1: lane/single white
+  2: lane/double white
+  3: lane/single yellow
+  4: lane/double yellow
+  5: lane/crosswalk
+
+# 下载命令（可选）
+# download: https://ultralytics.com/assets/coco128.zip
